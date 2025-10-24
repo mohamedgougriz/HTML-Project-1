@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Document</title>
+    <title>Bill Gates</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
+        <div>
+            <h1>Bill Gates</h1>
+        </div>
         <nav>
-            <ul>
-                <li>home</li>
-                <a href="#about">
-                    <li>about</li>
-                </a>
-                <a href="#work">
-                    <li>work</li>
-                </a>
-                <a href="#resume">
-                    <li>resume</li>
-                </a>
-                <a href="#contact">
-                    <li>contact</li>
-                </a>
+            <ul class="navbar">
+                <a href="#home"><li>home</li></a>
+                <a href="#about"><li>about</li></a>
+                <a href="#work"><li>work</li></a>
+                <a href="#resume"><li>resume</li></a>
+                <a href="#contact"><li>contact</li></a>
             </ul>
         </nav>
     </header>
     <main>
+        <section id="home">
+            <div>
+            <h1>Welcome!</h1>
+            <h3>I’m Bill Gates</h3>
+            <p>Born in Seattle, Washington</p>
+            <p>I co-founded Microsoft with a vision to make computing accessible to everyone. From early programming days to leading one of the world’s most influential tech companies, I helped shape the personal computer revolution. My journey didn’t stop at technology — I’ve dedicated much of my life to global philanthropy, focusing on health, education, and poverty reduction through the Gates Foundation.</p>
+            <button>Contact Me</button>
+            </div>
+            <div>
+                <img src="img/bill.jpg" alt="bill-gates">
+            </div>
+        </section>
         <section id="about">
             <h1><u>About</u></h1>
-            <h2>Bill Gates</h2>
-            <p>Bill Gates was the first to make personal computers accessible to everyone</p>
-            <img src="img/bill-gates.jpg" alt="bill gates">
-            <p>Bill Gates is a visionary innovator and philanthropist who revolutionized technology and dedicated his
-                wealth to improving global lives.</p>
-            <video width="1280" height="720" controls>
-                <source src="video/video.mp4" type="video/mp4">
-                BillGates
-            </video>
+            <div class="about">
+                <div class="one">
+                    <h2><u>Bill Gates</u></h2>
+                    <p>Bill Gates was the first to make personal computers accessible to everyone</p>
+                    <p>Bill Gates is a visionary innovator and philanthropist who revolutionized technology and dedicated his wealth to improving global lives.</p>
+                </div>
+                <div class="two">
+                    <img src="img/bill-gates.jpg" alt="bill gates">
+                </div>
+            </div>
         </section>
         <section id="work">
             <h1><u>Work</u></h1>
-            <ul>
+            <ul class="list">
                 <li><b>1975</b>– Co-founded <b>Microsoft</b> with Paul Allen.</li>
                 <li><b>1980</b>– Partnered with <b>IBM</b> to provide the <b>MS-DOS</b>operating system.</li>
                 <li><b>1985</b>– Released the first version of <b>Windows</b>.</li>
@@ -48,29 +57,38 @@
                 <li><b>2008</b>– Stepped down from his executive role at Microsoft to focus on philanthropy.</li>
                 <li><b>2020</b>– Supported global efforts to fight the <b>COVID-19 pandemic</b>.</li>
             </ul>
+            <div>
+                <video width="640" height="360" controls>
+                <source src="video/video.mp4" type="video/mp4">
+                BillGates
+            </video>
+            </div>
         </section>
         <section id="resume">
-            <h1>Audio</h1>
+            <h1><u>Resume</u></h1>
+            <p>Bill Gates is an American business magnate, software developer, and philanthropist. He co-founded Microsoft in 1975, leading the company to dominate the personal computer industry with Windows. Known for his innovation and strategic vision, Gates became one of the richest people in the world. In 2000, he founded the Bill & Melinda Gates Foundation, focusing on global health, education, and poverty reduction. Today, he is recognized as both a technology pioneer and a leading humanitarian.</p>
             <audio controls>
                 <source src="Audio/music.mp3" type="audio/mp3">
             </audio>
-            <h1><u>Resume</u></h1>
-            <p>Bill Gates is an American business magnate, software developer, and philanthropist. He co-founded
-                Microsoft in 1975, leading the company to dominate the personal computer industry with Windows. Known
-                for his innovation and strategic vision, Gates became one of the richest people in the world. In 2000,
-                he founded the Bill & Melinda Gates Foundation, focusing on global health, education, and poverty
-                reduction. Today, he is recognized as both a technology pioneer and a leading humanitarian.</p>
         </section>
         <section id="contact">
             <h1><u>contact</u></h1>
-            <img src="img/mail.png" alt="mail" height="20px">
-            <p><b>Email:</b>info@gatesfoundation.org</p>
-            <img src="img/internet.png" alt="web" height="20px">
-            <p><b>Website:</b>www.gatesfoundation.org</p>
-            <img src="img/twitter.png" alt="twitter" height="20px">
-            <p><b>Twitter:</b>@BillGates</p>
-            <img src="img/linkedin.png" alt="linkedin" height="20px">
-            <p><b>LinkedIn:</b>Bill Gates</p>
+            <div>
+                <img src="img/mail.png" alt="mail" height="20px">
+                <p><b>Email:</b>info@gatesfoundation.org</p>
+            </div>
+            <div>
+                <img src="img/internet.png" alt="web" height="20px">
+                <p><b>Website:</b>www.gatesfoundation.org</p>
+            </div>
+            <div>
+                <img src="img/twitter.png" alt="twitter" height="20px">
+                <p><b>Twitter:</b>@BillGates</p>
+            </div>
+            <div>
+                <img src="img/linkedin.png" alt="linkedin" height="20px">
+                <p><b>LinkedIn:</b>Bill Gates</p>
+            </div>
         </section>
     </main>
 
